@@ -23,5 +23,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: docker/Dockerfile
           push: true
-          tags: masilelang/nf-cvd-risk-image:latest
+          tags: masilelang/cvd_risk:latest
