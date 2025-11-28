@@ -25,4 +25,4 @@ jobs:
           context: .
           file: docker/Dockerfile
           push: true
-          tags: masilelang/cvd_risk_image:latest
+          tags: masilelang/nf-cvd-risk-image:latest
