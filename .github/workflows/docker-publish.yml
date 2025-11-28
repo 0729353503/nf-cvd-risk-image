@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
+          tags: 
            masilelang/nf-cvd-risk-image:latest
            masilelang/nf-cvd-risk-image:${{ github.sha }}
            cache-from: type=registry,ref=masilelang/nf-cvd-risk-image:latest
